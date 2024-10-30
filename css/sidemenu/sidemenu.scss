@@ -1,0 +1,32 @@
+@use "../variables/variables" as getVar;
+@use "../mixins/mixins" as getFun;
+.side-menu {
+  @include getFun.border-right;
+  height: 100vh;
+  li {
+    .logo {
+      font-size: 22pt;
+      font-weight: 800;
+      i {
+        font-size: 1.5rem;
+        // rotate: -20deg;
+      }
+    }
+    p {
+      &.nav-link {
+        position: relative;
+        &::after {
+          @include getFun.absolute-center;
+          content: "";
+          width: 80%;
+          height: 1px;
+          background-color: red;
+        }
+      }
+    }
+    .nav-link {
+      padding: 8px 0;
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@use "../css/variables/variables" as getVar;
+@use "../css/mixins/mixins" as getFun;
+
+// -------------------------
+body {
+  @include getFun.theme-font;
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}
+.main-page {
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: writer;
+  src: url("../../assets/fonts/writersF.ttf");
+}
+@mixin theme-font {
+  font-family: "writer";
+}
+@mixin border-left {
+  border-left: 2pt solid #000;
+}
+@mixin border-right {
+  border-right: 2pt solid #000;
+}
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

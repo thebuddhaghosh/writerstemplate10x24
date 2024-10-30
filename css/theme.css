@@ -1,0 +1,12 @@
+@font-face {
+  font-family: writer;
+  src: url("../../assets/fonts/writersF.ttf");
+}
+body {
+  font-family: "writer";
+  background-color: #fff;
+}
+
+p {
+  margin: 0;
+}/*# sourceMappingURL=theme.css.map */

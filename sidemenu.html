@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="css/sidemenu/sidemenu.css" />
+<!-- side menu working -->
+<ul class="side-menu list-unstyled p-3">
+  <li class="nav-item">
+    <a href="#" class="nav-link navbar-brand logo d-flex align-items-center gap-1">
+      Buddha
+      <i class="fa-solid fa-pen-fancy"></i>
+    </a>
+  </li>
+  <li class="nav-item">
+    <p class="nav-link">Other Link</p>
+  </li>
+  <li class="nav-item">
+    <a href="bio.html" class="nav-link">Writer's Bio</a>
+  </li>
+  <li class="nav-item">
+    <a href="contact.html" class="nav-link">Contact</a>
+  </li>
+</ul>
+
+<script>
+  var linkWidth = $("p.nav-link");
+  console.log("get width:", linkWidth);
+  console.log("get width:", linkWidth[0].offsetWidth);
+</script>

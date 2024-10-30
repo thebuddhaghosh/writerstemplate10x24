@@ -1,0 +1,26 @@
+@font-face {
+  font-family: writer;
+  src: url("../../assets/fonts/writersF.ttf");
+}
+.bio,
+.side-bio {
+  position: relative;
+}
+.bio:not(.bio),
+.side-bio:not(.bio) {
+  border-left: 2pt solid #000;
+  height: 100vh;
+  padding: 12pt 24pt;
+}
+.bio .text,
+.side-bio .text {
+  text-align: justify;
+}
+.bio .text:not(:last-child),
+.side-bio .text:not(:last-child) {
+  margin-bottom: 14pt;
+}
+
+.side-bio .profile {
+  bottom: 14pt;
+}/*# sourceMappingURL=bio.css.map */

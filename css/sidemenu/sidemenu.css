@@ -1,0 +1,32 @@
+@font-face {
+  font-family: writer;
+  src: url("../../assets/fonts/writersF.ttf");
+}
+.side-menu {
+  border-right: 2pt solid #000;
+  height: 100vh;
+}
+.side-menu li .logo {
+  font-size: 22pt;
+  font-weight: 800;
+}
+.side-menu li .logo i {
+  font-size: 1.5rem;
+}
+.side-menu li p.nav-link {
+  position: relative;
+}
+.side-menu li p.nav-link::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 80%;
+  height: 1px;
+  background-color: red;
+}
+.side-menu li .nav-link {
+  padding: 8px 0;
+  display: inline-block;
+}/*# sourceMappingURL=sidemenu.css.map */

@@ -1,0 +1,23 @@
+@use "../variables/variables" as getVar;
+@use "../mixins/mixins" as getFun;
+.bio,
+.side-bio {
+  position: relative;
+  &:not(.bio) {
+    @include getFun.border-left;
+    height: 100vh;
+    padding: 12pt 24pt;
+  }
+  .text {
+    text-align: justify;
+    &:not(:last-child) {
+      margin-bottom: 14pt;
+    }
+  }
+}
+
+.side-bio {
+  .profile {
+    bottom: 14pt;
+  }
+}
